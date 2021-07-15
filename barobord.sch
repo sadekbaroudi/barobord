@@ -271,17 +271,6 @@ F 3 "~" H 2500 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
-U 1 1 60E78888
-P 2250 9000
-F 0 "C5" H 2342 9046 50  0000 L CNN
-F 1 "0.1u" H 2342 8955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2250 9000 50  0001 C CNN
-F 3 "~" H 2250 9000 50  0001 C CNN
-	1    2250 9000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 60E78D5B
 P 2000 9000
@@ -317,14 +306,7 @@ $EndComp
 Wire Wire Line
 	2500 8600 2500 8700
 Wire Wire Line
-	2500 8700 2250 8700
-Wire Wire Line
 	2000 8700 2000 8900
-Wire Wire Line
-	2250 8900 2250 8700
-Connection ~ 2250 8700
-Wire Wire Line
-	2250 8700 2000 8700
 Wire Wire Line
 	2500 8700 2750 8700
 Wire Wire Line
@@ -340,8 +322,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 9100 2000 9350
 Wire Wire Line
-	2000 9350 2250 9350
-Wire Wire Line
 	2500 9350 2500 9400
 Wire Wire Line
 	2500 9350 2750 9350
@@ -355,11 +335,6 @@ Wire Wire Line
 	2750 9350 3000 9350
 Wire Wire Line
 	2500 9100 2500 9350
-Wire Wire Line
-	2250 9100 2250 9350
-Connection ~ 2250 9350
-Wire Wire Line
-	2250 9350 2500 9350
 Text GLabel 1750 2150 0    50   Input ~ 0
 RESET
 Wire Wire Line
@@ -2415,4 +2390,12 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    11600 8550
 	1    0    0    -1  
 $EndComp
+Text GLabel 5950 10000 1    50   Input ~ 0
+DN
+Text GLabel 5950 10100 3    50   Input ~ 0
+DP
+Wire Wire Line
+	2000 8700 2500 8700
+Wire Wire Line
+	2000 9350 2500 9350
 $EndSCHEMATC
