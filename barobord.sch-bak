@@ -1837,17 +1837,6 @@ F 3 "" H 5700 6000 50  0001 C CNN
 	1    5700 6000
 	0    1    1    0   
 $EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 611BA549
-P 5650 5400
-F 0 "#PWR0102" H 5650 5250 50  0001 C CNN
-F 1 "VCC" V 5665 5527 50  0000 L CNN
-F 2 "" H 5650 5400 50  0001 C CNN
-F 3 "" H 5650 5400 50  0001 C CNN
-	1    5650 5400
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 3150 2150
 NoConn ~ 3150 2250
 NoConn ~ 3150 2350
@@ -2048,18 +2037,6 @@ Wire Wire Line
 Connection ~ 11600 6000
 Wire Wire Line
 	11600 6000 11750 6000
-Wire Wire Line
-	5450 6950 11750 6950
-Wire Wire Line
-	5650 6350 12450 6350
-Wire Wire Line
-	5450 7900 11750 7900
-Wire Wire Line
-	5650 7300 12450 7300
-Wire Wire Line
-	5450 8850 11600 8850
-Wire Wire Line
-	5650 8250 11600 8250
 $Comp
 L kicad-keyboard-parts:SK6812MINI-E D51
 U 1 1 613A01AC
@@ -2398,4 +2375,273 @@ Wire Wire Line
 	2000 8700 2500 8700
 Wire Wire Line
 	2000 9350 2500 9350
+Wire Wire Line
+	5650 6350 6200 6350
+Wire Wire Line
+	6200 6350 6800 6350
+Connection ~ 6200 6350
+Wire Wire Line
+	6800 6350 7400 6350
+Connection ~ 6800 6350
+Wire Wire Line
+	7400 6350 8000 6350
+Connection ~ 7400 6350
+Wire Wire Line
+	8000 6350 8600 6350
+Connection ~ 8000 6350
+Wire Wire Line
+	8600 6350 9200 6350
+Connection ~ 8600 6350
+Connection ~ 9200 6350
+Wire Wire Line
+	9200 6350 9800 6350
+Wire Wire Line
+	9800 6350 10400 6350
+Connection ~ 9800 6350
+Connection ~ 10400 6350
+Wire Wire Line
+	10400 6350 11000 6350
+Connection ~ 11000 6350
+Wire Wire Line
+	11000 6350 11600 6350
+Connection ~ 11600 6350
+Wire Wire Line
+	11600 6350 12450 6350
+Wire Wire Line
+	5650 7300 6200 7300
+Connection ~ 6200 7300
+Wire Wire Line
+	6200 7300 6800 7300
+Connection ~ 6800 7300
+Wire Wire Line
+	6800 7300 7400 7300
+Connection ~ 7400 7300
+Wire Wire Line
+	7400 7300 8000 7300
+Connection ~ 8000 7300
+Wire Wire Line
+	8000 7300 8600 7300
+Connection ~ 8600 7300
+Wire Wire Line
+	8600 7300 9200 7300
+Connection ~ 9200 7300
+Wire Wire Line
+	9200 7300 9800 7300
+Connection ~ 9800 7300
+Wire Wire Line
+	9800 7300 10400 7300
+Connection ~ 10400 7300
+Wire Wire Line
+	10400 7300 11000 7300
+Connection ~ 11000 7300
+Wire Wire Line
+	11000 7300 11600 7300
+Connection ~ 11600 7300
+Wire Wire Line
+	11600 7300 12450 7300
+Wire Wire Line
+	5650 8250 6200 8250
+Connection ~ 6200 8250
+Wire Wire Line
+	6200 8250 6800 8250
+Connection ~ 6800 8250
+Wire Wire Line
+	6800 8250 7400 8250
+Connection ~ 7400 8250
+Wire Wire Line
+	7400 8250 8000 8250
+Connection ~ 8000 8250
+Wire Wire Line
+	8000 8250 8600 8250
+Connection ~ 8600 8250
+Wire Wire Line
+	8600 8250 9200 8250
+Connection ~ 9200 8250
+Wire Wire Line
+	9200 8250 9800 8250
+Connection ~ 9800 8250
+Wire Wire Line
+	9800 8250 10400 8250
+Connection ~ 10400 8250
+Wire Wire Line
+	10400 8250 11000 8250
+Connection ~ 11000 8250
+Wire Wire Line
+	11000 8250 11600 8250
+Wire Wire Line
+	11750 6950 11600 6950
+Connection ~ 6200 6950
+Wire Wire Line
+	6200 6950 5450 6950
+Connection ~ 6800 6950
+Wire Wire Line
+	6800 6950 6200 6950
+Connection ~ 7400 6950
+Wire Wire Line
+	7400 6950 6800 6950
+Connection ~ 8000 6950
+Wire Wire Line
+	8000 6950 7400 6950
+Connection ~ 8600 6950
+Wire Wire Line
+	8600 6950 8000 6950
+Connection ~ 9200 6950
+Wire Wire Line
+	9200 6950 8600 6950
+Connection ~ 9800 6950
+Wire Wire Line
+	9800 6950 9200 6950
+Connection ~ 10400 6950
+Wire Wire Line
+	10400 6950 9800 6950
+Connection ~ 11000 6950
+Wire Wire Line
+	11000 6950 10400 6950
+Connection ~ 11600 6950
+Wire Wire Line
+	11600 6950 11000 6950
+Wire Wire Line
+	11750 7900 11600 7900
+Connection ~ 6800 7900
+Wire Wire Line
+	6800 7900 6200 7900
+Connection ~ 7400 7900
+Wire Wire Line
+	7400 7900 6800 7900
+Connection ~ 8000 7900
+Wire Wire Line
+	8000 7900 7400 7900
+Connection ~ 8600 7900
+Wire Wire Line
+	8600 7900 8000 7900
+Connection ~ 9200 7900
+Wire Wire Line
+	9200 7900 8600 7900
+Connection ~ 9800 7900
+Wire Wire Line
+	9800 7900 9200 7900
+Connection ~ 10400 7900
+Wire Wire Line
+	10400 7900 9800 7900
+Connection ~ 11000 7900
+Wire Wire Line
+	11000 7900 10400 7900
+Connection ~ 11600 7900
+Wire Wire Line
+	11600 7900 11000 7900
+Wire Wire Line
+	6200 7900 5450 7900
+Connection ~ 6200 7900
+Wire Wire Line
+	5450 8850 6200 8850
+Connection ~ 6200 8850
+Wire Wire Line
+	6200 8850 6800 8850
+Connection ~ 6800 8850
+Wire Wire Line
+	6800 8850 7400 8850
+Connection ~ 7400 8850
+Wire Wire Line
+	7400 8850 8000 8850
+Connection ~ 8000 8850
+Wire Wire Line
+	8000 8850 8600 8850
+Connection ~ 8600 8850
+Wire Wire Line
+	8600 8850 9200 8850
+Connection ~ 9200 8850
+Wire Wire Line
+	9200 8850 9800 8850
+Connection ~ 9800 8850
+Wire Wire Line
+	9800 8850 10400 8850
+Connection ~ 10400 8850
+Wire Wire Line
+	10400 8850 11000 8850
+Connection ~ 11000 8850
+Wire Wire Line
+	11000 8850 11600 8850
+$Comp
+L power:+5V #PWR0102
+U 1 1 60F6E21E
+P 5650 5400
+F 0 "#PWR0102" H 5650 5250 50  0001 C CNN
+F 1 "+5V" V 5665 5528 50  0000 L CNN
+F 2 "" H 5650 5400 50  0001 C CNN
+F 3 "" H 5650 5400 50  0001 C CNN
+	1    5650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60F9B7B9
+P 1650 950
+F 0 "#FLG0101" H 1650 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 1123 50  0000 C CNN
+F 2 "" H 1650 950 50  0001 C CNN
+F 3 "~" H 1650 950 50  0001 C CNN
+	1    1650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 60F9D11D
+P 1650 1050
+F 0 "#PWR0103" H 1650 900 50  0001 C CNN
+F 1 "VCC" H 1665 1223 50  0000 C CNN
+F 2 "" H 1650 1050 50  0001 C CNN
+F 3 "" H 1650 1050 50  0001 C CNN
+	1    1650 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 950  1650 1050
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60FB7FBA
+P 2100 950
+F 0 "#FLG?" H 2100 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 1123 50  0000 C CNN
+F 2 "" H 2100 950 50  0001 C CNN
+F 3 "~" H 2100 950 50  0001 C CNN
+	1    2100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60FB9A70
+P 2100 1050
+F 0 "#PWR?" H 2100 900 50  0001 C CNN
+F 1 "+5V" H 2115 1223 50  0000 C CNN
+F 2 "" H 2100 1050 50  0001 C CNN
+F 3 "" H 2100 1050 50  0001 C CNN
+	1    2100 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 950  2100 1050
+$Comp
+L power:GND #PWR?
+U 1 1 60FD4683
+P 2500 1050
+F 0 "#PWR?" H 2500 800 50  0001 C CNN
+F 1 "GND" H 2505 877 50  0000 C CNN
+F 2 "" H 2500 1050 50  0001 C CNN
+F 3 "" H 2500 1050 50  0001 C CNN
+	1    2500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60FD5FC5
+P 2500 950
+F 0 "#FLG?" H 2500 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 1123 50  0000 C CNN
+F 2 "" H 2500 950 50  0001 C CNN
+F 3 "~" H 2500 950 50  0001 C CNN
+	1    2500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 950  2500 1050
 $EndSCHEMATC
