@@ -2048,18 +2048,6 @@ Wire Wire Line
 Connection ~ 11600 6000
 Wire Wire Line
 	11600 6000 11750 6000
-Wire Wire Line
-	5450 6950 11750 6950
-Wire Wire Line
-	5650 6350 12450 6350
-Wire Wire Line
-	5450 7900 11750 7900
-Wire Wire Line
-	5650 7300 12450 7300
-Wire Wire Line
-	5450 8850 11600 8850
-Wire Wire Line
-	5650 8250 11600 8250
 $Comp
 L kicad-keyboard-parts:SK6812MINI-E D51
 U 1 1 613A01AC
@@ -2398,4 +2386,190 @@ Wire Wire Line
 	2000 8700 2500 8700
 Wire Wire Line
 	2000 9350 2500 9350
+Wire Wire Line
+	5650 6350 6200 6350
+Wire Wire Line
+	6200 6350 6800 6350
+Connection ~ 6200 6350
+Wire Wire Line
+	6800 6350 7400 6350
+Connection ~ 6800 6350
+Wire Wire Line
+	7400 6350 8000 6350
+Connection ~ 7400 6350
+Wire Wire Line
+	8000 6350 8600 6350
+Connection ~ 8000 6350
+Wire Wire Line
+	8600 6350 9200 6350
+Connection ~ 8600 6350
+Connection ~ 9200 6350
+Wire Wire Line
+	9200 6350 9800 6350
+Wire Wire Line
+	9800 6350 10400 6350
+Connection ~ 9800 6350
+Connection ~ 10400 6350
+Wire Wire Line
+	10400 6350 11000 6350
+Connection ~ 11000 6350
+Wire Wire Line
+	11000 6350 11600 6350
+Connection ~ 11600 6350
+Wire Wire Line
+	11600 6350 12450 6350
+Wire Wire Line
+	5650 7300 6200 7300
+Connection ~ 6200 7300
+Wire Wire Line
+	6200 7300 6800 7300
+Connection ~ 6800 7300
+Wire Wire Line
+	6800 7300 7400 7300
+Connection ~ 7400 7300
+Wire Wire Line
+	7400 7300 8000 7300
+Connection ~ 8000 7300
+Wire Wire Line
+	8000 7300 8600 7300
+Connection ~ 8600 7300
+Wire Wire Line
+	8600 7300 9200 7300
+Connection ~ 9200 7300
+Wire Wire Line
+	9200 7300 9800 7300
+Connection ~ 9800 7300
+Wire Wire Line
+	9800 7300 10400 7300
+Connection ~ 10400 7300
+Wire Wire Line
+	10400 7300 11000 7300
+Connection ~ 11000 7300
+Wire Wire Line
+	11000 7300 11600 7300
+Connection ~ 11600 7300
+Wire Wire Line
+	11600 7300 12450 7300
+Wire Wire Line
+	5650 8250 6200 8250
+Connection ~ 6200 8250
+Wire Wire Line
+	6200 8250 6800 8250
+Connection ~ 6800 8250
+Wire Wire Line
+	6800 8250 7400 8250
+Connection ~ 7400 8250
+Wire Wire Line
+	7400 8250 8000 8250
+Connection ~ 8000 8250
+Wire Wire Line
+	8000 8250 8600 8250
+Connection ~ 8600 8250
+Wire Wire Line
+	8600 8250 9200 8250
+Connection ~ 9200 8250
+Wire Wire Line
+	9200 8250 9800 8250
+Connection ~ 9800 8250
+Wire Wire Line
+	9800 8250 10400 8250
+Connection ~ 10400 8250
+Wire Wire Line
+	10400 8250 11000 8250
+Connection ~ 11000 8250
+Wire Wire Line
+	11000 8250 11600 8250
+Wire Wire Line
+	11750 6950 11600 6950
+Connection ~ 6200 6950
+Wire Wire Line
+	6200 6950 5450 6950
+Connection ~ 6800 6950
+Wire Wire Line
+	6800 6950 6200 6950
+Connection ~ 7400 6950
+Wire Wire Line
+	7400 6950 6800 6950
+Connection ~ 8000 6950
+Wire Wire Line
+	8000 6950 7400 6950
+Connection ~ 8600 6950
+Wire Wire Line
+	8600 6950 8000 6950
+Connection ~ 9200 6950
+Wire Wire Line
+	9200 6950 8600 6950
+Connection ~ 9800 6950
+Wire Wire Line
+	9800 6950 9200 6950
+Connection ~ 10400 6950
+Wire Wire Line
+	10400 6950 9800 6950
+Connection ~ 11000 6950
+Wire Wire Line
+	11000 6950 10400 6950
+Connection ~ 11600 6950
+Wire Wire Line
+	11600 6950 11000 6950
+Wire Wire Line
+	11750 7900 11600 7900
+Connection ~ 6800 7900
+Wire Wire Line
+	6800 7900 6200 7900
+Connection ~ 7400 7900
+Wire Wire Line
+	7400 7900 6800 7900
+Connection ~ 8000 7900
+Wire Wire Line
+	8000 7900 7400 7900
+Connection ~ 8600 7900
+Wire Wire Line
+	8600 7900 8000 7900
+Connection ~ 9200 7900
+Wire Wire Line
+	9200 7900 8600 7900
+Connection ~ 9800 7900
+Wire Wire Line
+	9800 7900 9200 7900
+Connection ~ 10400 7900
+Wire Wire Line
+	10400 7900 9800 7900
+Connection ~ 11000 7900
+Wire Wire Line
+	11000 7900 10400 7900
+Connection ~ 11600 7900
+Wire Wire Line
+	11600 7900 11000 7900
+Wire Wire Line
+	6200 7900 5450 7900
+Connection ~ 6200 7900
+Wire Wire Line
+	5450 8850 6200 8850
+Connection ~ 6200 8850
+Wire Wire Line
+	6200 8850 6800 8850
+Connection ~ 6800 8850
+Wire Wire Line
+	6800 8850 7400 8850
+Connection ~ 7400 8850
+Wire Wire Line
+	7400 8850 8000 8850
+Connection ~ 8000 8850
+Wire Wire Line
+	8000 8850 8600 8850
+Connection ~ 8600 8850
+Wire Wire Line
+	8600 8850 9200 8850
+Connection ~ 9200 8850
+Wire Wire Line
+	9200 8850 9800 8850
+Connection ~ 9800 8850
+Wire Wire Line
+	9800 8850 10400 8850
+Connection ~ 10400 8850
+Wire Wire Line
+	10400 8850 11000 8850
+Connection ~ 11000 8850
+Wire Wire Line
+	11000 8850 11600 8850
 $EndSCHEMATC
