@@ -2,4 +2,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/libraries/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name kicad-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name SSD1306-128x64_OLED)(type Legacy)(uri ${KIPRJMOD}/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib)(options "")(descr ""))
 )
