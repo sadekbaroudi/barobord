@@ -1896,7 +1896,6 @@ F 3 "" H 5700 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3150 2850
-NoConn ~ 3150 3150
 NoConn ~ 3150 4350
 NoConn ~ 11900 8550
 $Comp
@@ -2770,8 +2769,6 @@ F 4 "C727110" H 12650 3700 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	13200 3550 12650 3550
-Wire Wire Line
-	13200 3750 13050 3750
 Text GLabel 13050 950  1    50   Input ~ 0
 col10
 Connection ~ 12000 3850
@@ -2805,7 +2802,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 4800 13050 4800
 Wire Wire Line
-	13050 950  13050 4800
+	13050 950  13050 3750
 $Comp
 L power:GND #PWR0108
 U 1 1 610BCB0B
@@ -2898,4 +2895,11 @@ Wire Wire Line
 Connection ~ 9950 10350
 Wire Wire Line
 	9950 10350 9800 10350
+Text GLabel 3150 3150 2    50   Input ~ 0
+col10
+Wire Wire Line
+	13200 3750 13050 3750
+Connection ~ 13050 3750
+Wire Wire Line
+	13050 3750 13050 4800
 $EndSCHEMATC
