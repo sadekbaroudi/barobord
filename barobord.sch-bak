@@ -1854,9 +1854,9 @@ Text GLabel 4950 5700 0    50   Input ~ 0
 led
 Wire Wire Line
 	4950 5700 5900 5700
-Text GLabel 3150 3350 2    50   Input ~ 0
+Text GLabel 3150 3950 2    50   Input ~ 0
 col5
-Text GLabel 3150 3450 2    50   Input ~ 0
+Text GLabel 3150 4050 2    50   Input ~ 0
 col6
 Text GLabel 3150 3550 2    50   Input ~ 0
 col7
@@ -1902,8 +1902,6 @@ NoConn ~ 3150 2450
 NoConn ~ 3150 2850
 NoConn ~ 3150 3150
 NoConn ~ 3150 3750
-NoConn ~ 3150 3950
-NoConn ~ 3150 4050
 NoConn ~ 3150 4350
 NoConn ~ 11900 8550
 $Comp
@@ -2702,4 +2700,54 @@ F 3 "~" H 2500 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 950  2500 1050
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 60F4EC12
+P 14800 1550
+F 0 "J?" H 14880 1592 50  0000 L CNN
+F 1 "Pimoroni" H 14880 1501 50  0000 L CNN
+F 2 "other_parts:pimoroni" H 14800 1550 50  0001 C CNN
+F 3 "~" H 14800 1550 50  0001 C CNN
+	1    14800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60F51AE5
+P 14150 1350
+F 0 "#PWR?" H 14150 1200 50  0001 C CNN
+F 1 "+5V" V 14165 1478 50  0000 L CNN
+F 2 "" H 14150 1350 50  0001 C CNN
+F 3 "" H 14150 1350 50  0001 C CNN
+	1    14150 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3150 3350 2    50   Input ~ 0
+scl
+Text GLabel 3150 3450 2    50   Input ~ 0
+sda
+Text GLabel 14150 1450 0    50   Input ~ 0
+sda
+Text GLabel 14150 1550 0    50   Input ~ 0
+scl
+$Comp
+L power:GND #PWR?
+U 1 1 60F588D4
+P 14150 1750
+F 0 "#PWR?" H 14150 1500 50  0001 C CNN
+F 1 "GND" V 14155 1622 50  0000 R CNN
+F 2 "" H 14150 1750 50  0001 C CNN
+F 3 "" H 14150 1750 50  0001 C CNN
+	1    14150 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 1350 14600 1350
+Wire Wire Line
+	14600 1450 14150 1450
+Wire Wire Line
+	14600 1550 14150 1550
+Wire Wire Line
+	14600 1750 14150 1750
+NoConn ~ 14600 1650
 $EndSCHEMATC
