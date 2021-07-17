@@ -1854,9 +1854,9 @@ Text GLabel 4950 5700 0    50   Input ~ 0
 led
 Wire Wire Line
 	4950 5700 5900 5700
-Text GLabel 3150 3950 2    50   Input ~ 0
+Text GLabel 3150 2450 2    50   Input ~ 0
 col5
-Text GLabel 3150 4050 2    50   Input ~ 0
+Text GLabel 3150 2350 2    50   Input ~ 0
 col6
 Text GLabel 3150 3550 2    50   Input ~ 0
 col7
@@ -1874,9 +1874,9 @@ Text GLabel 3150 4950 2    50   Input ~ 0
 col3
 Text GLabel 3150 5050 2    50   Input ~ 0
 col4
-Text GLabel 3150 2550 2    50   Input ~ 0
+Text GLabel 3150 2150 2    50   Input ~ 0
 row0
-Text GLabel 3150 2650 2    50   Input ~ 0
+Text GLabel 3150 2250 2    50   Input ~ 0
 row1
 Text GLabel 3150 2750 2    50   Input ~ 0
 row2
@@ -1895,13 +1895,8 @@ F 3 "" H 5700 6000 50  0001 C CNN
 	1    5700 6000
 	0    1    1    0   
 $EndComp
-NoConn ~ 3150 2150
-NoConn ~ 3150 2250
-NoConn ~ 3150 2350
-NoConn ~ 3150 2450
 NoConn ~ 3150 2850
 NoConn ~ 3150 3150
-NoConn ~ 3150 3750
 NoConn ~ 3150 4350
 NoConn ~ 11900 8550
 $Comp
@@ -2703,51 +2698,165 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x05 J1
 U 1 1 60F4EC12
-P 14800 1550
-F 0 "J1" H 14880 1592 50  0000 L CNN
-F 1 "Pimoroni" H 14880 1501 50  0000 L CNN
-F 2 "other_parts:pimoroni" H 14800 1550 50  0001 C CNN
-F 3 "~" H 14800 1550 50  0001 C CNN
-	1    14800 1550
+P 10500 10100
+F 0 "J1" H 10580 10142 50  0000 L CNN
+F 1 "Pimoroni" H 10580 10051 50  0000 L CNN
+F 2 "other_parts:pimoroni" H 10500 10100 50  0001 C CNN
+F 3 "~" H 10500 10100 50  0001 C CNN
+	1    10500 10100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0106
 U 1 1 60F51AE5
-P 14150 1350
-F 0 "#PWR0106" H 14150 1200 50  0001 C CNN
-F 1 "+5V" V 14165 1478 50  0000 L CNN
-F 2 "" H 14150 1350 50  0001 C CNN
-F 3 "" H 14150 1350 50  0001 C CNN
-	1    14150 1350
+P 9850 9900
+F 0 "#PWR0106" H 9850 9750 50  0001 C CNN
+F 1 "+5V" V 9865 10028 50  0000 L CNN
+F 2 "" H 9850 9900 50  0001 C CNN
+F 3 "" H 9850 9900 50  0001 C CNN
+	1    9850 9900
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3150 3350 2    50   Input ~ 0
 scl
 Text GLabel 3150 3450 2    50   Input ~ 0
 sda
-Text GLabel 14150 1450 0    50   Input ~ 0
+Text GLabel 9850 10000 0    50   Input ~ 0
 sda
-Text GLabel 14150 1550 0    50   Input ~ 0
+Text GLabel 9850 10100 0    50   Input ~ 0
 scl
 $Comp
 L power:GND #PWR0107
 U 1 1 60F588D4
-P 14150 1750
-F 0 "#PWR0107" H 14150 1500 50  0001 C CNN
-F 1 "GND" V 14155 1622 50  0000 R CNN
-F 2 "" H 14150 1750 50  0001 C CNN
-F 3 "" H 14150 1750 50  0001 C CNN
-	1    14150 1750
+P 9850 10300
+F 0 "#PWR0107" H 9850 10050 50  0001 C CNN
+F 1 "GND" V 9855 10172 50  0000 R CNN
+F 2 "" H 9850 10300 50  0001 C CNN
+F 3 "" H 9850 10300 50  0001 C CNN
+	1    9850 10300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14150 1350 14600 1350
+	9850 9900 10300 9900
 Wire Wire Line
-	14600 1450 14150 1450
+	10300 10000 9850 10000
 Wire Wire Line
-	14600 1550 14150 1550
+	10300 10100 9850 10100
 Wire Wire Line
-	14600 1750 14150 1750
-NoConn ~ 14600 1650
+	10300 10300 9850 10300
+NoConn ~ 10300 10200
+$Comp
+L Device:RotaryEncoder_Switch SW42
+U 1 1 60F63D47
+P 13500 3650
+F 0 "SW42" H 13500 3283 50  0000 C CNN
+F 1 "RotaryEncoder_Switch" H 13500 3374 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 13350 3810 50  0001 C CNN
+F 3 "~" H 13500 3910 50  0001 C CNN
+	1    13500 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12000 3850 12650 3850
+$Comp
+L Diode:1N4148W D81
+U 1 1 60F869B1
+P 12650 3700
+F 0 "D81" V 12696 3620 50  0000 R CNN
+F 1 "1N4148W" V 12605 3620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12650 3525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12650 3700 50  0001 C CNN
+F 4 "C727110" H 12650 3700 50  0001 C CNN "LCSC"
+	1    12650 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 3550 12650 3550
+Wire Wire Line
+	13200 3750 13050 3750
+Text GLabel 13050 950  1    50   Input ~ 0
+col10
+Connection ~ 12000 3850
+$Comp
+L Device:RotaryEncoder_Switch SW43
+U 1 1 61087D81
+P 13500 4700
+F 0 "SW43" H 13500 4333 50  0000 C CNN
+F 1 "RotaryEncoder_Switch" H 13500 4424 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 13350 4860 50  0001 C CNN
+F 3 "~" H 13500 4960 50  0001 C CNN
+	1    13500 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12000 4900 12650 4900
+$Comp
+L Diode:1N4148W D82
+U 1 1 61087D89
+P 12650 4750
+F 0 "D82" V 12696 4670 50  0000 R CNN
+F 1 "1N4148W" V 12605 4670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12650 4575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12650 4750 50  0001 C CNN
+F 4 "C727110" H 12650 4750 50  0001 C CNN "LCSC"
+	1    12650 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 4600 12650 4600
+Wire Wire Line
+	13200 4800 13050 4800
+Wire Wire Line
+	13050 950  13050 4800
+$Comp
+L power:GND #PWR0108
+U 1 1 610BCB0B
+P 14050 3650
+F 0 "#PWR0108" H 14050 3400 50  0001 C CNN
+F 1 "GND" V 14055 3522 50  0000 R CNN
+F 2 "" H 14050 3650 50  0001 C CNN
+F 3 "" H 14050 3650 50  0001 C CNN
+	1    14050 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 610BD59D
+P 14050 4700
+F 0 "#PWR0109" H 14050 4450 50  0001 C CNN
+F 1 "GND" V 14055 4572 50  0000 R CNN
+F 2 "" H 14050 4700 50  0001 C CNN
+F 3 "" H 14050 4700 50  0001 C CNN
+	1    14050 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14050 3750 2    50   Input ~ 0
+ENC1A
+Text GLabel 14050 3550 2    50   Input ~ 0
+ENC1B
+Text GLabel 14050 4600 2    50   Input ~ 0
+ENC2B
+Text GLabel 14050 4800 2    50   Input ~ 0
+ENC2A
+Wire Wire Line
+	13800 3550 14050 3550
+Wire Wire Line
+	13800 3650 14050 3650
+Wire Wire Line
+	13800 3750 14050 3750
+Wire Wire Line
+	13800 4600 14050 4600
+Wire Wire Line
+	13800 4700 14050 4700
+Wire Wire Line
+	13800 4800 14050 4800
+Text GLabel 3150 4050 2    50   Input ~ 0
+ENC1A
+Text GLabel 3150 2550 2    50   Input ~ 0
+ENC1B
+Text GLabel 3150 3750 2    50   Input ~ 0
+ENC2A
+Text GLabel 3150 3950 2    50   Input ~ 0
+ENC2B
+NoConn ~ 3150 2650
 $EndSCHEMATC
