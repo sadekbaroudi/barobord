@@ -14,8 +14,8 @@ Work in progress
 
 ## Prototype
 
-![proto1](mx/images/proto/1.jpg)
+![proto1](images/proto/1.jpg)
 
-![proto2](mx/images/proto/2.jpg)
+![proto2](images/proto/2.jpg)
 
-![proto3](mx/images/proto/3.jpg)
+![proto3](images/proto/3.jpg)
