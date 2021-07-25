@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\barobord.sch</source>
-    <date>7/18/2021 1:13:16 AM</date>
-    <tool>Eeschema (5.1.9)-1</tool>
+    <source>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx\barobord.sch</source>
+    <date>7/25/2021 8:49:19 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -1664,22 +1664,22 @@
       <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/MCU_Microchip_ATmega.lib</uri>
     </library>
     <library logical="SSD1306-128x64_OLED">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
     </library>
     <library logical="Switch">
       <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Switch.lib</uri>
     </library>
     <library logical="Type-C">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/Type-C.pretty/Type-C.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/Type-C.pretty/Type-C.lib</uri>
     </library>
     <library logical="barobord">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/barobord.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/barobord.lib</uri>
     </library>
     <library logical="kicad-keyboard-parts">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
     </library>
     <library logical="random-keyboard-parts">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
     </library>
   </libraries>
   <nets>

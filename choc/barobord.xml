@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\barobord.sch</source>
-    <date>7/18/2021 1:13:16 AM</date>
-    <tool>Eeschema (5.1.9)-1</tool>
+    <source>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc\barobord.sch</source>
+    <date>7/25/2021 8:53:00 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -217,7 +217,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -236,7 +236,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -255,7 +255,7 @@
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,7 +274,7 @@
     </comp>
     <comp ref="SW4">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -293,7 +293,7 @@
     </comp>
     <comp ref="SW5">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -312,7 +312,7 @@
     </comp>
     <comp ref="SW6">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -331,7 +331,7 @@
     </comp>
     <comp ref="SW11">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -350,7 +350,7 @@
     </comp>
     <comp ref="SW12">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -369,7 +369,7 @@
     </comp>
     <comp ref="SW13">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -388,7 +388,7 @@
     </comp>
     <comp ref="SW14">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -407,7 +407,7 @@
     </comp>
     <comp ref="SW15">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -426,7 +426,7 @@
     </comp>
     <comp ref="SW16">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -445,7 +445,7 @@
     </comp>
     <comp ref="SW21">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -464,7 +464,7 @@
     </comp>
     <comp ref="SW22">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -483,7 +483,7 @@
     </comp>
     <comp ref="SW23">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -502,7 +502,7 @@
     </comp>
     <comp ref="SW24">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -521,7 +521,7 @@
     </comp>
     <comp ref="SW25">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -540,7 +540,7 @@
     </comp>
     <comp ref="SW26">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -559,7 +559,7 @@
     </comp>
     <comp ref="SW31">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -578,7 +578,7 @@
     </comp>
     <comp ref="SW32">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -597,7 +597,7 @@
     </comp>
     <comp ref="SW33">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -616,7 +616,7 @@
     </comp>
     <comp ref="SW34">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -635,7 +635,7 @@
     </comp>
     <comp ref="SW35">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -654,7 +654,7 @@
     </comp>
     <comp ref="SW36">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -673,7 +673,7 @@
     </comp>
     <comp ref="SW7">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -692,7 +692,7 @@
     </comp>
     <comp ref="SW17">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -711,7 +711,7 @@
     </comp>
     <comp ref="SW27">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -730,7 +730,7 @@
     </comp>
     <comp ref="SW37">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -749,7 +749,7 @@
     </comp>
     <comp ref="SW8">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -768,7 +768,7 @@
     </comp>
     <comp ref="SW18">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -787,7 +787,7 @@
     </comp>
     <comp ref="SW28">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -806,7 +806,7 @@
     </comp>
     <comp ref="SW38">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -825,7 +825,7 @@
     </comp>
     <comp ref="SW9">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -844,7 +844,7 @@
     </comp>
     <comp ref="SW19">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -863,7 +863,7 @@
     </comp>
     <comp ref="SW29">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -882,7 +882,7 @@
     </comp>
     <comp ref="SW39">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -901,7 +901,7 @@
     </comp>
     <comp ref="SW10">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -920,7 +920,7 @@
     </comp>
     <comp ref="SW20">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -939,7 +939,7 @@
     </comp>
     <comp ref="SW30">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -958,7 +958,7 @@
     </comp>
     <comp ref="SW40">
       <value>SW_Push</value>
-      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1664,22 +1664,22 @@
       <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/MCU_Microchip_ATmega.lib</uri>
     </library>
     <library logical="SSD1306-128x64_OLED">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
     </library>
     <library logical="Switch">
       <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Switch.lib</uri>
     </library>
     <library logical="Type-C">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/Type-C.pretty/Type-C.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc/libraries/Type-C.pretty/Type-C.lib</uri>
     </library>
     <library logical="barobord">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/barobord.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc/libraries/barobord.lib</uri>
     </library>
     <library logical="kicad-keyboard-parts">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
     </library>
     <library logical="random-keyboard-parts">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\choc/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
     </library>
   </libraries>
   <nets>
