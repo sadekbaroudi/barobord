@@ -1,0 +1,19 @@
+right side prongs are measured in mm from the bottom, not the top, each number is the number of mm from the previous one
+
+pads are 1mm away from body, and should be a 1.5mm square, centered around that point...
+or, make through hole version where the hole is 1mm diameter, and just outside the body (maybe 0.1mm away)
+
+
+         10mm
+       -------
+       |     |3.3mm
+10.5mm |     |2.4mm
+       |     |2.0mm
+       -------
+
+
+29mm top, from bottom of pcb
+
+      25mm width total
+
+1.2mm bottom, from bottom of pcb
