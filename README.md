@@ -20,6 +20,8 @@ This is a split monoblock keyboard with 40 keys, a 25% typing angle, and other g
 
 ![v1mx02](images/v1-mx-02.jpg)
 
+![v1mx02](images/v1-mx-03.jpg)
+
 ## v1-choc
 
 ![v1choc01](images/v1-choc-01.jpg)
