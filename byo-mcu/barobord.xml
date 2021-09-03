@@ -1,0 +1,2391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx\barobord.sch</source>
+    <date>7/25/2021 8:49:19 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>barobord.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATmega32U4-A</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C44854</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-A" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6450A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6C0B8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E6E106</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24_Small</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13738</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E70D64</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1804</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E71A1B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1804</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E71A9C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E77E4A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E78D5B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E790F8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E793AE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E81EDB</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>Type-C:HRO-TYPE-C-31-M-12-HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E8C427</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse_Small</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C99561</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA847B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB37CB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB3B48</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>PRTR5V0U2X</value>
+      <footprint>random-keyboard-parts:SOT143B</footprint>
+      <fields>
+        <field name="LCSC">C316030</field>
+      </fields>
+      <libsource lib="random-keyboard-parts" part="PRTR5V0U2X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EBC470</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17561</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E8D4FE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17561</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E8E9F1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED53A1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED9422</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EE975D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EE9763</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EED265</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EED26B</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EED275</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EED27B</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF09F2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF09F8</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF0A02</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF0A08</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF4E18</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF4E1E</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF4E28</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF4E2E</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF914B</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF9151</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF915B</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF9161</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFE98F</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFE995</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFE99F</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFE9A5</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F037B7</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F037BD</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F037C7</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F037CD</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F08376</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0837C</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F08386</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0838C</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DE0F</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DE15</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DE1F</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0DE25</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F13609</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1360F</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F13619</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1361F</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1885D</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F18863</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1886D</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F18873</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1DD2D</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1DD33</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1DD3D</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F1DD43</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C1F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C25</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C2F</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C35</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C3F</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C45</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C4F</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F79C55</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA94A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA950</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA959</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA95F</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA968</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA96E</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA977</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FBA97D</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD786B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD7871</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD787A</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD7880</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD7889</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD788F</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD7898</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FD789E</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B11</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B17</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B20</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B26</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B2F</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B35</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>SW_Push</value>
+      <footprint>keyswitches:Kailh_socket_MX</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B3E</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FE2B44</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_Push</value>
+      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613137A2</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61349C4D</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6135FED1</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6136068E</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61360C8A</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61361423</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61361BDF</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61362480</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61362A8C</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613630FB</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61363870</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01AC</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01B2</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01B8</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01BE</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01C4</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01CA</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01D0</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01D6</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01DC</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A01E2</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8165</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B816B</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8171</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8177</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B817D</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8183</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8189</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B818F</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B8195</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B819B</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD898</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD89E</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8A4</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8AA</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8B0</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8B6</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8BC</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8C2</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8C8</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>SK6812MINI-E</value>
+      <footprint>kicad-keyboard-parts:MX_SK6812MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</datasheet>
+      <libsource lib="kicad-keyboard-parts" part="SK6812MINI-E" description="Reverse-mount RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD8CE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Pimoroni</value>
+      <footprint>other_parts:pimoroni</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F4EC12</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Keebio-Parts:RotaryEncoder_EC11-no-legs</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F63D47</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F869B1</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Keebio-Parts:RotaryEncoder_EC11-no-legs</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61087D81</tstamp>
+    </comp>
+    <comp ref="D82">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C727110</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61087D89</tstamp>
+    </comp>
+    <comp ref="Brd1">
+      <value>SSD1306</value>
+      <footprint>SSD1306:128x64OLED</footprint>
+      <libsource lib="SSD1306-128x64_OLED" part="SSD1306" description="SSD1306 OLED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612938C9</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>EVQWGD001</value>
+      <footprint>other_parts:EVQWGD001</footprint>
+      <libsource lib="barobord" part="EVQWGD001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F78C83</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>EVQWGD001</value>
+      <footprint>other_parts:EVQWGD001</footprint>
+      <libsource lib="barobord" part="EVQWGD001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610FA7E4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MMSD914">
+      <aliases>
+        <alias>1N4148W</alias>
+        <alias>BAV16W</alias>
+        <alias>1N4448W</alias>
+        <alias>MMSD4148</alias>
+      </aliases>
+      <description>100V 0.2A Switching Diode, SOD-123</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MMSD914T1-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMSD914</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-A">
+      <aliases>
+        <alias>ATmega16U4RC-A</alias>
+        <alias>ATmega32U4-A</alias>
+        <alias>ATmega32U4RC-A</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-A</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSD1306-128x64_OLED" part="SSD1306">
+      <description>SSD1306 OLED</description>
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Type-C" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="barobord" part="EVQWGD001">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">EVQWGD001</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="output"/>
+        <pin num="B" name="B" type="output"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="NC" name="NC" type="unspc"/>
+        <pin num="S1" name="S1" type="output"/>
+        <pin num="S2" name="S2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad-keyboard-parts" part="SK6812MINI-E">
+      <description>Reverse-mount RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</docs>
+      <footprints>
+        <fp>LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6812MINI-E</field>
+        <field name="Footprint">kicad-keyboard-parts:MX_SK6812MINI-E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="random-keyboard-parts" part="PRTR5V0U2X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PRTR5V0U2X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="IO1" type="input"/>
+        <pin num="3" name="IO2" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Diode.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="SSD1306-128x64_OLED">
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:/Users/sadek/Documents/keyboard-pcbs/kicad-default-libraries/kicad-symbols-master/Switch.lib</uri>
+    </library>
+    <library logical="Type-C">
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/Type-C.pretty/Type-C.lib</uri>
+    </library>
+    <library logical="barobord">
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/barobord.lib</uri>
+    </library>
+    <library logical="kicad-keyboard-parts">
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib</uri>
+    </library>
+    <library logical="random-keyboard-parts">
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\barobord\barobord\mx/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D59-Pad2)">
+      <node ref="D60" pin="4"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2"/>
+      <node ref="D58" pin="4"/>
+    </net>
+    <net code="3" name="Net-(D58-Pad2)">
+      <node ref="D58" pin="2"/>
+      <node ref="D59" pin="4"/>
+    </net>
+    <net code="4" name="Net-(D56-Pad2)">
+      <node ref="D57" pin="4"/>
+      <node ref="D56" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D55-Pad2)">
+      <node ref="D56" pin="4"/>
+      <node ref="D55" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="D55" pin="4"/>
+    </net>
+    <net code="7" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="D61" pin="4"/>
+    </net>
+    <net code="8" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="D63" pin="4"/>
+    </net>
+    <net code="9" name="Net-(D63-Pad2)">
+      <node ref="D64" pin="4"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="D62" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D49-Pad2)">
+      <node ref="D50" pin="4"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D48-Pad2)">
+      <node ref="D49" pin="4"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D53-Pad2)">
+      <node ref="D54" pin="4"/>
+      <node ref="D53" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="D53" pin="4"/>
+    </net>
+    <net code="15" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="D52" pin="4"/>
+    </net>
+    <net code="16" name="Net-(D73-Pad2)">
+      <node ref="D73" pin="2"/>
+      <node ref="D74" pin="4"/>
+    </net>
+    <net code="17" name="Net-(D75-Pad2)">
+      <node ref="D75" pin="2"/>
+      <node ref="D76" pin="4"/>
+    </net>
+    <net code="18" name="Net-(D76-Pad2)">
+      <node ref="D77" pin="4"/>
+      <node ref="D76" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D74-Pad2)">
+      <node ref="D75" pin="4"/>
+      <node ref="D74" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D72-Pad2)">
+      <node ref="D72" pin="2"/>
+      <node ref="D73" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D71-Pad2)">
+      <node ref="D71" pin="2"/>
+      <node ref="D72" pin="4"/>
+    </net>
+    <net code="22" name="Net-(D79-Pad2)">
+      <node ref="D79" pin="2"/>
+      <node ref="D80" pin="4"/>
+    </net>
+    <net code="23" name="Net-(D80-Pad2)">
+      <node ref="D80" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D78-Pad2)">
+      <node ref="D79" pin="4"/>
+      <node ref="D78" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D77-Pad2)">
+      <node ref="D77" pin="2"/>
+      <node ref="D78" pin="4"/>
+    </net>
+    <net code="26" name="Net-(D66-Pad2)">
+      <node ref="D66" pin="2"/>
+      <node ref="D67" pin="4"/>
+    </net>
+    <net code="27" name="Net-(D67-Pad2)">
+      <node ref="D67" pin="2"/>
+      <node ref="D68" pin="4"/>
+    </net>
+    <net code="28" name="Net-(D65-Pad2)">
+      <node ref="D66" pin="4"/>
+      <node ref="D65" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D68-Pad2)">
+      <node ref="D69" pin="4"/>
+      <node ref="D68" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D64-Pad2)">
+      <node ref="D65" pin="4"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D70-Pad2)">
+      <node ref="D70" pin="2"/>
+      <node ref="D71" pin="4"/>
+    </net>
+    <net code="32" name="Net-(D69-Pad2)">
+      <node ref="D69" pin="2"/>
+      <node ref="D70" pin="4"/>
+    </net>
+    <net code="33" name="led">
+      <node ref="D41" pin="4"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="36" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2"/>
+      <node ref="D51" pin="4"/>
+    </net>
+    <net code="37" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="SW40" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="D46" pin="4"/>
+    </net>
+    <net code="39" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+      <node ref="D47" pin="4"/>
+    </net>
+    <net code="40" name="Net-(D44-Pad2)">
+      <node ref="D45" pin="4"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Brd1" pin="1"/>
+      <node ref="SW45" pin="C"/>
+      <node ref="D59" pin="3"/>
+      <node ref="SW42" pin="C"/>
+      <node ref="SW43" pin="C"/>
+      <node ref="J1" pin="5"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="SW44" pin="C"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="35"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D55" pin="3"/>
+      <node ref="D52" pin="3"/>
+      <node ref="D62" pin="3"/>
+      <node ref="D53" pin="3"/>
+      <node ref="D77" pin="3"/>
+      <node ref="D63" pin="3"/>
+      <node ref="D78" pin="3"/>
+      <node ref="D46" pin="3"/>
+      <node ref="D60" pin="3"/>
+      <node ref="D51" pin="3"/>
+      <node ref="D54" pin="3"/>
+      <node ref="D45" pin="3"/>
+      <node ref="D76" pin="3"/>
+      <node ref="D75" pin="3"/>
+      <node ref="D67" pin="3"/>
+      <node ref="D70" pin="3"/>
+      <node ref="D71" pin="3"/>
+      <node ref="D64" pin="3"/>
+      <node ref="D65" pin="3"/>
+      <node ref="D66" pin="3"/>
+      <node ref="D69" pin="3"/>
+      <node ref="D47" pin="3"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="D41" pin="3"/>
+      <node ref="D61" pin="3"/>
+      <node ref="D68" pin="3"/>
+      <node ref="D43" pin="3"/>
+      <node ref="D73" pin="3"/>
+      <node ref="D42" pin="3"/>
+      <node ref="D48" pin="3"/>
+      <node ref="D58" pin="3"/>
+      <node ref="D49" pin="3"/>
+      <node ref="D57" pin="3"/>
+      <node ref="D50" pin="3"/>
+      <node ref="D80" pin="3"/>
+      <node ref="D72" pin="3"/>
+      <node ref="D56" pin="3"/>
+      <node ref="D79" pin="3"/>
+      <node ref="D44" pin="3"/>
+      <node ref="D74" pin="3"/>
+    </net>
+    <net code="42" name="Net-(D47-Pad2)">
+      <node ref="D48" pin="4"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D42-Pad2)">
+      <node ref="D43" pin="4"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="D42" pin="4"/>
+    </net>
+    <net code="45" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2"/>
+      <node ref="D44" pin="4"/>
+    </net>
+    <net code="46" name="ENC2A">
+      <node ref="SW43" pin="A"/>
+      <node ref="SW45" pin="A"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="47" name="ENC2B">
+      <node ref="SW45" pin="B"/>
+      <node ref="U1" pin="26"/>
+      <node ref="SW43" pin="B"/>
+    </net>
+    <net code="48" name="Net-(D82-Pad2)">
+      <node ref="D82" pin="2"/>
+      <node ref="SW45" pin="S2"/>
+      <node ref="SW43" pin="S2"/>
+    </net>
+    <net code="49" name="+5V">
+      <node ref="D48" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D80" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D66" pin="1"/>
+      <node ref="D78" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D77" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="D79" pin="1"/>
+      <node ref="D74" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="D73" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D71" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="Brd1" pin="2"/>
+      <node ref="D56" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D47" pin="1"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="51" name="sda">
+      <node ref="Brd1" pin="4"/>
+      <node ref="U1" pin="19"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="53" name="Net-(D81-Pad2)">
+      <node ref="SW42" pin="S2"/>
+      <node ref="D81" pin="2"/>
+      <node ref="SW44" pin="S2"/>
+    </net>
+    <net code="54" name="Net-(SW45-PadNC)">
+      <node ref="SW45" pin="NC"/>
+    </net>
+    <net code="55" name="col10">
+      <node ref="SW45" pin="S1"/>
+      <node ref="SW42" pin="S1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="SW43" pin="S1"/>
+      <node ref="SW44" pin="S1"/>
+    </net>
+    <net code="56" name="Net-(SW44-PadNC)">
+      <node ref="SW44" pin="NC"/>
+    </net>
+    <net code="57" name="ENC1B">
+      <node ref="U1" pin="28"/>
+      <node ref="SW42" pin="B"/>
+      <node ref="SW44" pin="B"/>
+    </net>
+    <net code="58" name="VCC">
+      <node ref="U2" pin="4"/>
+      <node ref="USB1" pin="11"/>
+      <node ref="F1" pin="2"/>
+      <node ref="USB1" pin="2"/>
+    </net>
+    <net code="59" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="60" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9"/>
+    </net>
+    <net code="61" name="RESET">
+      <node ref="SW41" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="USB1" pin="10"/>
+    </net>
+    <net code="63" name="Net-(R6-Pad1)">
+      <node ref="USB1" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="64" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="65" name="Net-(D1-Pad2)">
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="66" name="DP">
+      <node ref="USB1" pin="6"/>
+      <node ref="USB1" pin="8"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D4-Pad2)">
+      <node ref="SW4" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="69" name="D-">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="70" name="D+">
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="71" name="DN">
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="USB1" pin="7"/>
+      <node ref="USB1" pin="5"/>
+    </net>
+    <net code="72" name="row1">
+      <node ref="D13" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="73" name="row0">
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="75" name="XTAL2">
+      <node ref="U1" pin="16"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="76" name="XTAL1">
+      <node ref="U1" pin="17"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="77" name="col0">
+      <node ref="SW11" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="40"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW31" pin="2"/>
+    </net>
+    <net code="78" name="col9">
+      <node ref="SW20" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW30" pin="2"/>
+    </net>
+    <net code="79" name="col8">
+      <node ref="SW39" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="80" name="col7">
+      <node ref="U1" pin="20"/>
+      <node ref="SW28" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW38" pin="2"/>
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="81" name="scl">
+      <node ref="Brd1" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="82" name="col5">
+      <node ref="U1" pin="11"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW26" pin="2"/>
+    </net>
+    <net code="83" name="col6">
+      <node ref="SW7" pin="2"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW27" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="84" name="col1">
+      <node ref="SW2" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="85" name="col2">
+      <node ref="SW13" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="SW23" pin="2"/>
+    </net>
+    <net code="86" name="col3">
+      <node ref="U1" pin="37"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="87" name="col4">
+      <node ref="SW35" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="88" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="89" name="row3">
+      <node ref="D31" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D82" pin="1"/>
+    </net>
+    <net code="90" name="row2">
+      <node ref="D23" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D81" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="91" name="ENC1A">
+      <node ref="SW42" pin="A"/>
+      <node ref="U1" pin="27"/>
+      <node ref="SW44" pin="A"/>
+    </net>
+    <net code="92" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2"/>
+      <node ref="SW37" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D27-Pad2)">
+      <node ref="SW27" pin="1"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D18-Pad2)">
+      <node ref="SW18" pin="1"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D7-Pad2)">
+      <node ref="SW7" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D10-Pad2)">
+      <node ref="SW10" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="SW39" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D29-Pad2)">
+      <node ref="SW29" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D20-Pad2)">
+      <node ref="SW20" pin="1"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="SW30" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D28-Pad2)">
+      <node ref="SW28" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D38-Pad2)">
+      <node ref="SW38" pin="1"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D19-Pad2)">
+      <node ref="SW19" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="108" name="Net-(D15-Pad2)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="SW14" pin="1"/>
+    </net>
+    <net code="111" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="SW21" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D6-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D11-Pad2)">
+      <node ref="SW11" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="115" name="Net-(D5-Pad2)">
+      <node ref="SW5" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D13-Pad2)">
+      <node ref="SW13" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="117" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="118" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="SW33" pin="1"/>
+    </net>
+    <net code="119" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW34" pin="1"/>
+    </net>
+    <net code="120" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="SW32" pin="1"/>
+    </net>
+    <net code="121" name="Net-(D36-Pad2)">
+      <node ref="SW36" pin="1"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="123" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="124" name="Net-(D25-Pad2)">
+      <node ref="SW25" pin="1"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D23-Pad2)">
+      <node ref="SW23" pin="1"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="SW26" pin="1"/>
+    </net>
+    <net code="127" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="SW31" pin="1"/>
+    </net>
+  </nets>
+</export>
