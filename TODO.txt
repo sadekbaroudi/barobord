@@ -2,3 +2,4 @@ My todo list for new features:
 * Add support for kicad top plate to include openings for rotary encoders and oled / pimoroni trackball
 * Add break off number row and 6th columns on left and right for additional side keys
 * Add underglow support. When adding support, extend the LEDs from the SK6812 mini-e to WS2812b, and add jumpers that route the LED pin from the atmega to the underglow directly so that you have the option of using underglow only
+* Redo all the mounting holes so that they are the same positions on all versions of the barobord
