@@ -52,7 +52,8 @@ For the choc case, you can fabricate the top and bottom plates using the gerbers
 | Component   | Quantity    | Link |
 | ----------- | ----------- | ------------ |
 | M2 3mm standoffs (for plate style case) | 9 | Google it |
-| M2 4mm screws (for plate style case) | 18 | Google it |
+| M2 10mm screws (for plate style case) | 9 | Google it |
+| M2 hex nuts (for plate style case) | 9 | Google it |
 | SK6812 mini-e LED (optional)   | 40       | https://www.adafruit.com/product/4960 |
 | EC11 Rotary encoder (optional)   | 2       | https://www.adafruit.com/product/377 |
 | evqwgd001 Rotary encoder (optional)   | 2       | https://grabcad.com/library/encoder-panasonic-evqwgd001-1 |
