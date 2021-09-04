@@ -30,11 +30,13 @@ https://github.com/sadekbaroudi/barobord/blob/master/BUILDGUIDE.md
 
 ![v1mx02](images/v1-mx-02.jpg)
 
-![v1mx02](images/v1-mx-03.jpg)
+![v1mx03](images/v1-mx-03.jpg)
 
 ## v1-choc
 
 ![v1choc01](images/v1-choc-01.jpg)
+
+![v1choc02](images/v1-choc-02.jpg)
 
 ## Prototype
 
