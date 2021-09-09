@@ -77,4 +77,4 @@ https://github.com/sadekbaroudi/barobord/tree/master/cases/sandwich
 You can do any combination of a switchplate and a bottom plate. The only exception is that if you use the negative switchplate , you need to use the negative bottom plate. Otherwise, use the appropriate switchplate depending on what optional components you decidede to use. 
 
 Also, If you add rotary encoders and oled or pimoroni trackball, there are a few nice covers you can 3d print and put on top for a cleaner look. This is optional, but recommended as it looks much better. See the stls directly in this folder:
-* https://github.com/sadekbaroudi/barobord/tree/master/cases
+* https://github.com/sadekbaroudi/barobord/tree/master/cases/covers
