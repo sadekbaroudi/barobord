@@ -2,6 +2,11 @@
 
 There are 3 versions of the barobord available to build here. There is the byo-mcu, which supports any pro micro compatible mcu, along with the nice nano and the elite-c.
 
+Note that the MX version (not the byo-mcu, but the atmega32u4) supports per key LED AND underglow. You have a few different configuration options:
+* Per key LED only - ignore the underglow LEDs and just solder the SK6812 mini-e LEDs
+* Per key LED and underglow - solder the 40 SK6812 mini-e LEDs and the WS2812B LEDs
+* Underglow only - solder the 10 WS2812B LEDs and make sure you solder the jumper on the top of the board. It is just to the left of the atmega32u4
+
 # byo-mcu (bring your own MCU)
 
 IMPORTANT: If using this, you can only use the rotary encoders with a nice nano or elite-c compatible controller. You can use the OLED and pimoroni trackball no matter which mcu you choose.
@@ -39,6 +44,7 @@ In addition to those, you'll need:
 | M2 8mm standoffs (for sandwich case) | 9 | https://flashquark.com/product/m2-standoffs-8mm-20-pack/ |
 | M2 4-5mm screws (for sandwich case) | 18 | https://www.amazon.com/uxcell-0-4mm-Stainless-Socket-DIN912/dp/B01M5DVE9R |
 | SK6812 mini-e LED (optional)   | 40       | https://www.adafruit.com/product/4960 |
+| WS2812B LED (optional) | 10 | https://www.adafruit.com/product/3094 |
 | EC11 Rotary encoder (optional)   | 2       | https://www.adafruit.com/product/377 |
 | evqwgd001 Rotary encoder (optional)   | 2       | https://grabcad.com/library/encoder-panasonic-evqwgd001-1 |
 | 128x64 4 pin OLED (optional)  | 1       | https://www.amazon.com/DIYmall-Serial-128x64-Display-Arduino/dp/B00O2KDQBE |
