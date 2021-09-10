@@ -22,6 +22,12 @@ There are three versions of this board. I have personally fabricated and tested 
 See the build guide, descriptions of the three versions, and BOM for all three here:
 https://github.com/sadekbaroudi/barobord/blob/master/BUILDGUIDE.md
 
+# Do you want to test the layout?
+
+Print the file below on a sheet of paper. Test it out!
+
+[Layout tester](layout-tester.pdf)
+
 # Images
 
 ## v1-mx
