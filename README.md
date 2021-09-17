@@ -28,6 +28,11 @@ Print the file below on a sheet of paper. Test it out!
 
 [Layout tester](layout-tester.pdf)
 
+# Firmware
+
+I have not yet merged the barobord qmk firmware into the main qmk repository, but you can access it here:
+[Barobord QMK firmware](https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/barobord/keymaps)
+
 # Images
 
 ## v1-mx
