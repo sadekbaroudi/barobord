@@ -1,0 +1,44 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.10)-1*%
+%TF.CreationDate,2021-09-18T02:49:05-07:00*%
+%TF.ProjectId,barobord-switchplate-outside-pcb,6261726f-626f-4726-942d-737769746368,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2021-09-18 02:49:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,2.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,*%
+X65412593Y-128678404D03*
+%TD*%
+%TO.C,*%
+X113162593Y-41508404D03*
+%TD*%
+%TO.C,*%
+X177882593Y-41468404D03*
+%TD*%
+%TO.C,*%
+X241952593Y-26808404D03*
+%TD*%
+%TO.C,*%
+X268942593Y-83698404D03*
+%TD*%
+%TO.C,*%
+X226262593Y-127488404D03*
+%TD*%
+%TO.C,*%
+X146042593Y-163398404D03*
+%TD*%
+%TO.C,*%
+X22482593Y-84148404D03*
+%TD*%
+%TO.C,*%
+X48362593Y-27118404D03*
+%TD*%
+M02*
