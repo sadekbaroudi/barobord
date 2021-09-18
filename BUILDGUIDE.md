@@ -71,10 +71,14 @@ For the choc case, you can fabricate the top and bottom plates using the gerbers
 
 Building these is very straight forward. Solder all the components per the footprints on the board. There is no particular recommendation on how you go about doing it.
 
-For the case, you can either use the plates for the choc version (see link to plate gerbers above). For mx, you can 3d print a case from the following directory:
-https://github.com/sadekbaroudi/barobord/tree/master/cases/sandwich
+For the case, you have options depending on the board:
+* https://github.com/sadekbaroudi/barobord/tree/master/cases/plates/kicad/choc (fr4, choc only)
+* https://github.com/sadekbaroudi/barobord/tree/master/cases/sandwich (3d printed, any version, recommended for mx and byo-mcu)
+* https://github.com/sadekbaroudi/barobord/tree/master/cases/plates/kicad/either (fr4, any version, but if you are building a choc, highly recommend the first one over this)
 
-You can do any combination of a switchplate and a bottom plate. The only exception is that if you use the negative switchplate , you need to use the negative bottom plate. Otherwise, use the appropriate switchplate depending on what optional components you decidede to use. 
+For the 3d printed case, you can do any combination of a switchplate and a bottom plate. The only exception is that if you use the negative switchplate , you need to use the negative bottom plate. Otherwise, use the appropriate switchplate depending on what optional components you decidede to use. 
 
 Also, If you add rotary encoders and oled or pimoroni trackball, there are a few nice covers you can 3d print and put on top for a cleaner look. This is optional, but recommended as it looks much better. See the stls directly in this folder:
 * https://github.com/sadekbaroudi/barobord/tree/master/cases/covers
+
+Note: The fr4 plates do not support rotary encoders, OLED, or pimoroni trackball. If you want to use those, you'll have to use the stls and 3d print, or you will need to design your own fr4 plates.
