@@ -26,6 +26,8 @@ For this pcb, here are the components you will need:
 | evqwgd001 Rotary encoder (optional)   | 2       | https://grabcad.com/library/encoder-panasonic-evqwgd001-1 |
 | 128x64 4 pin OLED (optional)  | 1       | https://www.amazon.com/DIYmall-Serial-128x64-Display-Arduino/dp/B00O2KDQBE |
 | Pimoroni trackball (optional) | 1 | https://shop.pimoroni.com/products/trackball-breakout |
+| JST connector, S2B-PH-K-S LF SN (optional, nice nano only) | 1 | https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626 |
+| OS102011MA1QN1 on off switch (optional, nice nano only) | 1 | https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430 |
 
 # mx and choc
 

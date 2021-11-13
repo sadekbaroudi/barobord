@@ -2,12 +2,6 @@
 
 Bar-oh-board
 
-# WARNING
-
-The byo-mcu version needs to be reworked. Do not fabricate it. I accidentally used the RAW pin as a data pin, and I would like to add a jumper for the nice nano.
-
-In theory, you can fabricate it as is and reroute the pin on the board to another unused pin on the MCU, then write your own firmware. However, unless you have expertise in electronics, I recommend waiting until I fix it.
-
 # Support me!
 
 I have spent a lot of time and money designing prototypes, testing, developing, etc. Any contributions would be greatly appreciated!
