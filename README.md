@@ -31,7 +31,9 @@ Print the file below on a sheet of paper. Test it out!
 # Firmware
 
 I have not yet merged the barobord qmk firmware into the main qmk repository, but you can access it here:
-[Barobord QMK firmware](https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/barobord/keymaps)
+[Barobord QMK firmware](https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/barobord)
+
+Also note that I have not yet written the firmware for the byo-mcu version. If you end up building one, and would like the firmware, please feel free to reach out to me on discord or reddit, and I'll put something together for you.
 
 # Images
 
