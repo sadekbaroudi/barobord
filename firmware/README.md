@@ -13,5 +13,7 @@ I also added some user keycodes, some of which are already enabled on the defaul
 * User 3: Any case - This will take the next letter you type, and use it just like the previous one (User 2). For instance, if you press this key, and then press 0, this0is0what0it0will0look0like0if0you0type
 * User 4: Underscore case - This is the same as User 2, but with underscore instead of hyphen 
 
+Note: if you'd like to check out my layout, download and load sadek-layout.vil (found in this directory)
+
 Here is what it should look like:
 ![example](vial-example.png)
