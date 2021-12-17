@@ -2590,17 +2590,6 @@ B-
 Text GLabel 3150 2650 2    50   Input ~ 0
 B+
 $Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 61AE01E2
-P 1150 1800
-F 0 "J2" H 1042 1475 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 1042 1566 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1150 1800 50  0001 C CNN
-F 3 "~" H 1150 1800 50  0001 C CNN
-	1    1150 1800
-	-1   0    0    1   
-$EndComp
-$Comp
 L Switch:SW_DIP_x01 SW46
 U 1 1 61AE238D
 P 2100 1800
@@ -2616,7 +2605,7 @@ B+
 Text GLabel 2800 1700 2    50   Input ~ 0
 B-
 Wire Wire Line
-	1350 1700 1750 1700
+	1350 1700 1600 1700
 Wire Wire Line
 	1750 1700 1750 1500
 Wire Wire Line
@@ -2629,4 +2618,23 @@ Wire Wire Line
 	2800 1800 2400 1800
 Wire Wire Line
 	1800 1800 1350 1800
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 61BEFB25
+P 1150 1800
+F 0 "J2" H 1042 1475 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 1042 1566 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 1150 1800 50  0001 C CNN
+F 3 "~" H 1150 1800 50  0001 C CNN
+F 4 "C157929" H 1150 1800 50  0001 C CNN "LCSC"
+	1    1150 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 1900 1600 1900
+Wire Wire Line
+	1600 1900 1600 1700
+Connection ~ 1600 1700
+Wire Wire Line
+	1600 1700 1750 1700
 $EndSCHEMATC

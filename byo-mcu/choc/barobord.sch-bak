@@ -64,7 +64,7 @@ U 1 1 60ED53A1
 P 6350 1450
 F 0 "SW1" H 6350 1735 50  0000 C CNN
 F 1 "SW_Push" H 6350 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6350 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6350 1650 50  0001 C CNN
 F 3 "~" H 6350 1650 50  0001 C CNN
 	1    6350 1450
 	1    0    0    -1  
@@ -92,7 +92,7 @@ U 1 1 60EE975D
 P 7000 1450
 F 0 "SW2" H 7000 1735 50  0000 C CNN
 F 1 "SW_Push" H 7000 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7000 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7000 1650 50  0001 C CNN
 F 3 "~" H 7000 1650 50  0001 C CNN
 	1    7000 1450
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 60EED265
 P 7650 1450
 F 0 "SW3" H 7650 1735 50  0000 C CNN
 F 1 "SW_Push" H 7650 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7650 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7650 1650 50  0001 C CNN
 F 3 "~" H 7650 1650 50  0001 C CNN
 	1    7650 1450
 	1    0    0    -1  
@@ -148,7 +148,7 @@ U 1 1 60EED275
 P 8300 1450
 F 0 "SW4" H 8300 1735 50  0000 C CNN
 F 1 "SW_Push" H 8300 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8300 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8300 1650 50  0001 C CNN
 F 3 "~" H 8300 1650 50  0001 C CNN
 	1    8300 1450
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 60EF09F2
 P 8950 1450
 F 0 "SW5" H 8950 1735 50  0000 C CNN
 F 1 "SW_Push" H 8950 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8950 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8950 1650 50  0001 C CNN
 F 3 "~" H 8950 1650 50  0001 C CNN
 	1    8950 1450
 	1    0    0    -1  
@@ -204,7 +204,7 @@ U 1 1 60EF0A02
 P 9600 1450
 F 0 "SW6" H 9600 1735 50  0000 C CNN
 F 1 "SW_Push" H 9600 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 9600 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 9600 1650 50  0001 C CNN
 F 3 "~" H 9600 1650 50  0001 C CNN
 	1    9600 1450
 	1    0    0    -1  
@@ -232,7 +232,7 @@ U 1 1 60EF4E18
 P 6350 2500
 F 0 "SW11" H 6350 2785 50  0000 C CNN
 F 1 "SW_Push" H 6350 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6350 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6350 2700 50  0001 C CNN
 F 3 "~" H 6350 2700 50  0001 C CNN
 	1    6350 2500
 	1    0    0    -1  
@@ -258,7 +258,7 @@ U 1 1 60EF4E28
 P 7000 2500
 F 0 "SW12" H 7000 2785 50  0000 C CNN
 F 1 "SW_Push" H 7000 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7000 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7000 2700 50  0001 C CNN
 F 3 "~" H 7000 2700 50  0001 C CNN
 	1    7000 2500
 	1    0    0    -1  
@@ -288,7 +288,7 @@ U 1 1 60EF914B
 P 7650 2500
 F 0 "SW13" H 7650 2785 50  0000 C CNN
 F 1 "SW_Push" H 7650 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7650 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7650 2700 50  0001 C CNN
 F 3 "~" H 7650 2700 50  0001 C CNN
 	1    7650 2500
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 1 1 60EF915B
 P 8300 2500
 F 0 "SW14" H 8300 2785 50  0000 C CNN
 F 1 "SW_Push" H 8300 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8300 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8300 2700 50  0001 C CNN
 F 3 "~" H 8300 2700 50  0001 C CNN
 	1    8300 2500
 	1    0    0    -1  
@@ -344,7 +344,7 @@ U 1 1 60EFE98F
 P 8950 2500
 F 0 "SW15" H 8950 2785 50  0000 C CNN
 F 1 "SW_Push" H 8950 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8950 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8950 2700 50  0001 C CNN
 F 3 "~" H 8950 2700 50  0001 C CNN
 	1    8950 2500
 	1    0    0    -1  
@@ -370,7 +370,7 @@ U 1 1 60EFE99F
 P 9600 2500
 F 0 "SW16" H 9600 2785 50  0000 C CNN
 F 1 "SW_Push" H 9600 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 9600 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 9600 2700 50  0001 C CNN
 F 3 "~" H 9600 2700 50  0001 C CNN
 	1    9600 2500
 	1    0    0    -1  
@@ -400,7 +400,7 @@ U 1 1 60F037B7
 P 6350 3550
 F 0 "SW21" H 6350 3835 50  0000 C CNN
 F 1 "SW_Push" H 6350 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6350 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6350 3750 50  0001 C CNN
 F 3 "~" H 6350 3750 50  0001 C CNN
 	1    6350 3550
 	1    0    0    -1  
@@ -426,7 +426,7 @@ U 1 1 60F037C7
 P 7000 3550
 F 0 "SW22" H 7000 3835 50  0000 C CNN
 F 1 "SW_Push" H 7000 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7000 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7000 3750 50  0001 C CNN
 F 3 "~" H 7000 3750 50  0001 C CNN
 	1    7000 3550
 	1    0    0    -1  
@@ -456,7 +456,7 @@ U 1 1 60F08376
 P 7650 3550
 F 0 "SW23" H 7650 3835 50  0000 C CNN
 F 1 "SW_Push" H 7650 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7650 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7650 3750 50  0001 C CNN
 F 3 "~" H 7650 3750 50  0001 C CNN
 	1    7650 3550
 	1    0    0    -1  
@@ -482,7 +482,7 @@ U 1 1 60F08386
 P 8300 3550
 F 0 "SW24" H 8300 3835 50  0000 C CNN
 F 1 "SW_Push" H 8300 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8300 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8300 3750 50  0001 C CNN
 F 3 "~" H 8300 3750 50  0001 C CNN
 	1    8300 3550
 	1    0    0    -1  
@@ -512,7 +512,7 @@ U 1 1 60F0DE0F
 P 8950 3550
 F 0 "SW25" H 8950 3835 50  0000 C CNN
 F 1 "SW_Push" H 8950 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8950 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8950 3750 50  0001 C CNN
 F 3 "~" H 8950 3750 50  0001 C CNN
 	1    8950 3550
 	1    0    0    -1  
@@ -538,7 +538,7 @@ U 1 1 60F0DE1F
 P 9600 3550
 F 0 "SW26" H 9600 3835 50  0000 C CNN
 F 1 "SW_Push" H 9600 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 9600 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 9600 3750 50  0001 C CNN
 F 3 "~" H 9600 3750 50  0001 C CNN
 	1    9600 3550
 	1    0    0    -1  
@@ -568,7 +568,7 @@ U 1 1 60F13609
 P 6350 4600
 F 0 "SW31" H 6350 4885 50  0000 C CNN
 F 1 "SW_Push" H 6350 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6350 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 6350 4800 50  0001 C CNN
 F 3 "~" H 6350 4800 50  0001 C CNN
 	1    6350 4600
 	1    0    0    -1  
@@ -593,7 +593,7 @@ U 1 1 60F13619
 P 7000 4600
 F 0 "SW32" H 7000 4885 50  0000 C CNN
 F 1 "SW_Push" H 7000 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7000 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7000 4800 50  0001 C CNN
 F 3 "~" H 7000 4800 50  0001 C CNN
 	1    7000 4600
 	1    0    0    -1  
@@ -622,7 +622,7 @@ U 1 1 60F1885D
 P 7650 4600
 F 0 "SW33" H 7650 4885 50  0000 C CNN
 F 1 "SW_Push" H 7650 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 7650 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 7650 4800 50  0001 C CNN
 F 3 "~" H 7650 4800 50  0001 C CNN
 	1    7650 4600
 	1    0    0    -1  
@@ -647,7 +647,7 @@ U 1 1 60F1886D
 P 8300 4600
 F 0 "SW34" H 8300 4885 50  0000 C CNN
 F 1 "SW_Push" H 8300 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8300 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8300 4800 50  0001 C CNN
 F 3 "~" H 8300 4800 50  0001 C CNN
 	1    8300 4600
 	1    0    0    -1  
@@ -676,7 +676,7 @@ U 1 1 60F1DD2D
 P 8950 4600
 F 0 "SW35" H 8950 4885 50  0000 C CNN
 F 1 "SW_Push" H 8950 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8950 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 8950 4800 50  0001 C CNN
 F 3 "~" H 8950 4800 50  0001 C CNN
 	1    8950 4600
 	1    0    0    -1  
@@ -701,7 +701,7 @@ U 1 1 60F1DD3D
 P 9600 4600
 F 0 "SW36" H 9600 4885 50  0000 C CNN
 F 1 "SW_Push" H 9600 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 9600 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 9600 4800 50  0001 C CNN
 F 3 "~" H 9600 4800 50  0001 C CNN
 	1    9600 4600
 	1    0    0    -1  
@@ -750,7 +750,7 @@ U 1 1 60F79C1F
 P 10250 1450
 F 0 "SW7" H 10250 1735 50  0000 C CNN
 F 1 "SW_Push" H 10250 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10250 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10250 1650 50  0001 C CNN
 F 3 "~" H 10250 1650 50  0001 C CNN
 	1    10250 1450
 	1    0    0    -1  
@@ -778,7 +778,7 @@ U 1 1 60F79C2F
 P 10250 2500
 F 0 "SW17" H 10250 2785 50  0000 C CNN
 F 1 "SW_Push" H 10250 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10250 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10250 2700 50  0001 C CNN
 F 3 "~" H 10250 2700 50  0001 C CNN
 	1    10250 2500
 	1    0    0    -1  
@@ -806,7 +806,7 @@ U 1 1 60F79C3F
 P 10250 3550
 F 0 "SW27" H 10250 3835 50  0000 C CNN
 F 1 "SW_Push" H 10250 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10250 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10250 3750 50  0001 C CNN
 F 3 "~" H 10250 3750 50  0001 C CNN
 	1    10250 3550
 	1    0    0    -1  
@@ -834,7 +834,7 @@ U 1 1 60F79C4F
 P 10250 4600
 F 0 "SW37" H 10250 4885 50  0000 C CNN
 F 1 "SW_Push" H 10250 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10250 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10250 4800 50  0001 C CNN
 F 3 "~" H 10250 4800 50  0001 C CNN
 	1    10250 4600
 	1    0    0    -1  
@@ -887,7 +887,7 @@ U 1 1 60FBA94A
 P 10900 1450
 F 0 "SW8" H 10900 1735 50  0000 C CNN
 F 1 "SW_Push" H 10900 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10900 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10900 1650 50  0001 C CNN
 F 3 "~" H 10900 1650 50  0001 C CNN
 	1    10900 1450
 	1    0    0    -1  
@@ -915,7 +915,7 @@ U 1 1 60FBA959
 P 10900 2500
 F 0 "SW18" H 10900 2785 50  0000 C CNN
 F 1 "SW_Push" H 10900 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10900 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10900 2700 50  0001 C CNN
 F 3 "~" H 10900 2700 50  0001 C CNN
 	1    10900 2500
 	1    0    0    -1  
@@ -943,7 +943,7 @@ U 1 1 60FBA968
 P 10900 3550
 F 0 "SW28" H 10900 3835 50  0000 C CNN
 F 1 "SW_Push" H 10900 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10900 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10900 3750 50  0001 C CNN
 F 3 "~" H 10900 3750 50  0001 C CNN
 	1    10900 3550
 	1    0    0    -1  
@@ -971,7 +971,7 @@ U 1 1 60FBA977
 P 10900 4600
 F 0 "SW38" H 10900 4885 50  0000 C CNN
 F 1 "SW_Push" H 10900 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10900 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10900 4800 50  0001 C CNN
 F 3 "~" H 10900 4800 50  0001 C CNN
 	1    10900 4600
 	1    0    0    -1  
@@ -1004,7 +1004,7 @@ U 1 1 60FD786B
 P 11550 1450
 F 0 "SW9" H 11550 1735 50  0000 C CNN
 F 1 "SW_Push" H 11550 1644 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 11550 1650 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 11550 1650 50  0001 C CNN
 F 3 "~" H 11550 1650 50  0001 C CNN
 	1    11550 1450
 	1    0    0    -1  
@@ -1030,7 +1030,7 @@ U 1 1 60FD787A
 P 11550 2500
 F 0 "SW19" H 11550 2785 50  0000 C CNN
 F 1 "SW_Push" H 11550 2694 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 11550 2700 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 11550 2700 50  0001 C CNN
 F 3 "~" H 11550 2700 50  0001 C CNN
 	1    11550 2500
 	1    0    0    -1  
@@ -1056,7 +1056,7 @@ U 1 1 60FD7889
 P 11550 3550
 F 0 "SW29" H 11550 3835 50  0000 C CNN
 F 1 "SW_Push" H 11550 3744 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 11550 3750 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 11550 3750 50  0001 C CNN
 F 3 "~" H 11550 3750 50  0001 C CNN
 	1    11550 3550
 	1    0    0    -1  
@@ -1082,7 +1082,7 @@ U 1 1 60FD7898
 P 11550 4600
 F 0 "SW39" H 11550 4885 50  0000 C CNN
 F 1 "SW_Push" H 11550 4794 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 11550 4800 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 11550 4800 50  0001 C CNN
 F 3 "~" H 11550 4800 50  0001 C CNN
 	1    11550 4600
 	1    0    0    -1  
@@ -1109,7 +1109,7 @@ U 1 1 60FE2B11
 P 9600 5650
 F 0 "SW10" H 9600 5935 50  0000 C CNN
 F 1 "SW_Push" H 9600 5844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 9600 5850 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 9600 5850 50  0001 C CNN
 F 3 "~" H 9600 5850 50  0001 C CNN
 	1    9600 5650
 	1    0    0    -1  
@@ -1132,7 +1132,7 @@ U 1 1 60FE2B20
 P 10250 5650
 F 0 "SW20" H 10250 5935 50  0000 C CNN
 F 1 "SW_Push" H 10250 5844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10250 5850 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10250 5850 50  0001 C CNN
 F 3 "~" H 10250 5850 50  0001 C CNN
 	1    10250 5650
 	1    0    0    -1  
@@ -1155,7 +1155,7 @@ U 1 1 60FE2B2F
 P 10900 5650
 F 0 "SW30" H 10900 5935 50  0000 C CNN
 F 1 "SW_Push" H 10900 5844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 10900 5850 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 10900 5850 50  0001 C CNN
 F 3 "~" H 10900 5850 50  0001 C CNN
 	1    10900 5650
 	1    0    0    -1  
@@ -1178,7 +1178,7 @@ U 1 1 60FE2B3E
 P 11550 5650
 F 0 "SW40" H 11550 5935 50  0000 C CNN
 F 1 "SW_Push" H 11550 5844 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 11550 5850 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 11550 5850 50  0001 C CNN
 F 3 "~" H 11550 5850 50  0001 C CNN
 	1    11550 5650
 	1    0    0    -1  
