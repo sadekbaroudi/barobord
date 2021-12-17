@@ -2,6 +2,12 @@
 
 Depending on the features on your keyboard, download the appropriate firmware (.hex file) from this directory and flash it onto your keyboard.
 
+The filename indicates the features you have enabled on the board. Note that these are not the only possible versions, see the link below (to my vial-qmk repo) to build your own firmware.
+
+* xoiviox_barobord_rgbmatrix_oled_ec11_vial.hex - If you are using per key leds, an OLED, and EC11 encoders
+* xoiviox_barobord_rgbmatrix_pimoroni_ec11_vial.hex - If you are using per key leds, a pimoroni trackball, and EC11 encoders
+* xoiviox_barobord_rgbmatrix_vial.hex - If you are only using per key leds
+
 Once you have done that, make sure you have [Vial](https://get.vial.today/) installed. Run it and configure it as you like!
 
 If you want to change the firmware, the original source can be found [here](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/xoiviox/barobord)
