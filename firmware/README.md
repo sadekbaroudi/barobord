@@ -4,13 +4,20 @@ Depending on the features on your keyboard, download the appropriate firmware (.
 
 The filename indicates the features you have enabled on the board. Note that these are not the only possible versions, see the link below (to my vial-qmk repo) to build your own firmware.
 
+If you are using the embedded atmega32u4 version
 * xoiviox_barobord_rgbmatrix_oled_ec11_vial.hex - If you are using per key leds, an OLED, and EC11 encoders
 * xoiviox_barobord_rgbmatrix_pimoroni_ec11_vial.hex - If you are using per key leds, a pimoroni trackball, and EC11 encoders
 * xoiviox_barobord_rgbmatrix_vial.hex - If you are only using per key leds
 
+If you are using the byo-mcu board:
+* xoiviox_barobord_byomcu_rgblight_vial.hex - per key leds only, and you want rgb light instead of rgb matrix
+* xoiviox_barobord_byomcu_rgbmatrix_oled_ec11_vial.hex - per key leds, oled and/or ec11 encoders
+* xoiviox_barobord_byomcu_rgbmatrix_pimoroni_ec11_vial.hex - per key leds, pimoroni and/or ec11 encoders
+* xoiviox_barobord_byomcu_rgbmatrix_vial.hex - per key leds only
+
 Once you have done that, make sure you have [Vial](https://get.vial.today/) installed. Run it and configure it as you like!
 
-If you want to change the firmware, the original source can be found [here](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/xoiviox/barobord)
+If you want to change the firmware, the original source can be found here: [atmega32u4 embedded](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/xoiviox/barobord) or [byo-mcu version](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/xoiviox/barobord_byomcu)
 
 I also added some user keycodes, some of which are already enabled on the default layout (currently in the Raise layer):
 * User 0: Next sentence - This keycode will place a period, followed by a space, and then it will auto-capitalize the next letter you type. This is great when typing, as you only have to use one key press to start the next sentence
