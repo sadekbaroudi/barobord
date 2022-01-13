@@ -34,7 +34,7 @@ barobord supports [vial](https://get.vial.today/)! Download it, build and flash 
 [Prepared firmware](https://github.com/sadekbaroudi/barobord/tree/master/firmware)
 
 If you want to build the firmware yourself, you can access it here:
-[Barobord QMK firmware](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/xoiviox/barobord)
+[Barobord QMK firmware](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/fingerpunch/barobord)
 
 Also note that I have not yet written the firmware for the byo-mcu version. If you end up building one, and would like the firmware, please feel free to reach out to me on discord or reddit, and I'll put something together for you.
 
