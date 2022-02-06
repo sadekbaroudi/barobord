@@ -19,8 +19,8 @@ For this pcb, here are the components you will need:
 | SMD Diodes 0805   | 42       | https://www.lcsc.com/product-detail/Switching-Diode_TWGMC-1N4148W_C727110.html |
 | SMD 10k resistor   | 1       | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html |
 | Kailh hotswap sockets | 40 | https://www.adafruit.com/product/4958 |
-| M2 8mm standoffs (for sandwich case) | 9 | https://flashquark.com/product/m2-standoffs-8mm-20-pack/ |
-| M2 4-5mm screws (for sandwich case) | 18 | https://www.amazon.com/uxcell-0-4mm-Stainless-Socket-DIN912/dp/B01M5DVE9R |
+| M2 8mm standoffs | 9 | https://flashquark.com/product/m2-standoffs-8mm-20-pack/ |
+| M2 4-5mm screws (NOTE: if building a choc board, use wafer head screws so they don't interfere with the choc keycaps) | 18 | https://www.amazon.com/uxcell-0-4mm-Stainless-Socket-DIN912/dp/B01M5DVE9R or https://www.metricscrews.us/index.php?main_page=product_info&cPath=13_122_129_127&products_id=35&zenid=59pj26l8u00j3g4st2e4nul3i6 |
 | SK6812 mini-e LED (optional)   | 40       | https://www.adafruit.com/product/4960 |
 | EC11 Rotary encoder (optional)   | 2       | https://www.adafruit.com/product/377 |
 | evqwgd001 Rotary encoder (optional)   | 2       | https://grabcad.com/library/encoder-panasonic-evqwgd001-1 |
