@@ -33,10 +33,11 @@ Print the file below on a sheet of paper. Test it out!
 barobord supports [vial](https://get.vial.today/)! Download it, build and flash the firmware, and vial will allow you to configure it. If you don't want to learn how to flash firmware, I have prebuilt some that you can find here:
 [Prepared firmware](https://github.com/sadekbaroudi/barobord/tree/master/firmware)
 
-If you want to build the firmware yourself, you can access it here:
+If you want to build the firmware yourself, you can access it here for the integrated atmega32u4 version:
 [Barobord QMK firmware](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/fingerpunch/barobord)
 
-Also note that I have not yet written the firmware for the byo-mcu version. If you end up building one, and would like the firmware, please feel free to reach out to me on discord or reddit, and I'll put something together for you.
+Or here for the byo-mcu version:
+[Barobord byo-mcu QMK firmware](https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/fingerpunch/barobord_byomcu)
 
 # Images
 
